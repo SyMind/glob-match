@@ -1,4 +1,4 @@
-use criterion::{criterion_group, criterion_main, Criterion};
+use codspeed_criterion_compat::{criterion_group, criterion_main, Criterion};
 use glob_match::*;
 
 const PATH: &'static str = "some/a/bigger/path/to/the/crazy/needle.txt";
